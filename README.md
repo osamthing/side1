@@ -81,7 +81,7 @@ $ cat dump.sql | docker exec -i side1_db_1 psql -U postgres
 Dockerの起動
 
 ```
-hoge
+$ docker-compose up -d
 ```
 
 Dockerの停止
